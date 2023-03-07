@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  cursor: pointer;
+  background-color: #e1e1e1;
+  padding: 10px 20px;
+  max-width: 200px;
+  transition: all .2s;
+}
+li:hover{
+  opacity: .5;
+}
